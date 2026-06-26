@@ -1,0 +1,199 @@
+/* ============================================================================
+   Survey Component - Styles par défaut
+   ============================================================================ */
+
+:root {
+  /* Palette de couleurs */
+  --survey-primary: #7c3aed;
+  --survey-success: #10b981;
+
+  /* Neutres */
+  --survey-bg: #ffffff;
+  --survey-bg-alt: #f9fafb;
+  --survey-border: #e5e7eb;
+  --survey-text: #1f2937;
+  --survey-text-light: #6b7280;
+
+  /* Espacements */
+  --survey-spacing-xs: 0.25rem;
+  --survey-spacing-sm: 0.5rem;
+  --survey-spacing-md: 1rem;
+  --survey-spacing-lg: 1.5rem;
+  --survey-spacing-xl: 2rem;
+
+  /* Typo */
+  --survey-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  --survey-font-size-sm: 0.875rem;
+  --survey-font-size-base: 1rem;
+  --survey-font-size-lg: 1.125rem;
+
+  /* Radii & Shadows */
+  --survey-radius: 0.5rem;
+  --survey-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --survey-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --survey-bg: #1f2937;
+    --survey-bg-alt: #111827;
+    --survey-border: #374151;
+    --survey-text: #f3f4f6;
+    --survey-text-light: #d1d5db;
+  }
+}
+
+/* ---- Composant ---- */
+
+survey-markdown {
+  display: block;
+  font-family: var(--survey-font-family);
+  font-size: var(--survey-font-size-base);
+  color: var(--survey-text);
+  /*background: var(--survey-bg);*/
+}
+
+/* ---- Questions ---- */
+
+survey-markdown article {
+  background: var(--survey-bg);
+  border: 1px solid var(--survey-border);
+  border-radius: var(--survey-radius);
+  box-shadow: var(--survey-shadow-sm);
+  padding: var(--survey-spacing-lg);
+  margin-bottom: var(--survey-spacing-lg);
+}
+
+survey-markdown article + article {
+  margin-top: var(--survey-spacing-lg);
+}
+
+survey-markdown article h1,
+survey-markdown article h2,
+survey-markdown article h3 {
+  margin-top: 0;
+  margin-bottom: var(--survey-spacing-md);
+  color: var(--survey-text);
+}
+
+/* ---- Formulaire ---- */
+
+survey-markdown form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--survey-spacing-sm);
+}
+
+survey-markdown input[type="text"],
+survey-markdown input[type="email"],
+survey-markdown input[type="number"],
+survey-markdown textarea {
+  width: 100%;
+  padding: var(--survey-spacing-sm) var(--survey-spacing-md);
+  border: 1px solid var(--survey-border);
+  border-radius: var(--survey-radius);
+  font-size: var(--survey-font-size-base);
+  color: var(--survey-text);
+  background: var(--survey-bg);
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+survey-markdown input[type="text"]:focus,
+survey-markdown input[type="email"]:focus,
+survey-markdown input[type="number"]:focus,
+survey-markdown textarea:focus {
+  outline: none;
+  border-color: var(--survey-primary);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+survey-markdown textarea {
+  resize: vertical;
+  min-height: 5rem;
+}
+
+survey-markdown select {
+  padding: var(--survey-spacing-sm) var(--survey-spacing-md);
+  border: 1px solid var(--survey-border);
+  border-radius: var(--survey-radius);
+  font-size: var(--survey-font-size-base);
+  color: var(--survey-text);
+  background: var(--survey-bg);
+}
+
+/* Checkboxes & radios */
+survey-markdown ul,
+survey-markdown ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--survey-spacing-xs);
+}
+
+survey-markdown li {
+  display: flex;
+  align-items: center;
+  gap: var(--survey-spacing-sm);
+  padding: var(--survey-spacing-xs) var(--survey-spacing-sm);
+  border-radius: var(--survey-radius);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+survey-markdown li:hover {
+  background: var(--survey-bg-alt);
+}
+
+survey-markdown li label {
+  cursor: pointer;
+}
+
+survey-markdown input[type="radio"],
+survey-markdown input[type="checkbox"] {
+  accent-color: var(--survey-primary);
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* ---- Bouton d'envoi ---- */
+
+survey-markdown [data-type="questions"] > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--survey-spacing-sm) var(--survey-spacing-xl);
+  background: var(--survey-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--survey-radius);
+  font-size: var(--survey-font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  margin-top: var(--survey-spacing-md);
+}
+
+survey-markdown [data-type="questions"] > button:hover {
+  opacity: 0.9;
+}
+
+survey-markdown [data-type="questions"] > button:active {
+  transform: scale(0.98);
+}
+
+/* ---- Message de confirmation ---- */
+
+survey-markdown [data-type="questions"] > p {
+  padding: var(--survey-spacing-lg);
+  background: var(--survey-bg-alt);
+  border: 1px solid var(--survey-border);
+  border-left: 4px solid var(--survey-success);
+  border-radius: var(--survey-radius);
+  font-weight: 600;
+  color: var(--survey-success);
+}
