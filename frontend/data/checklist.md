@@ -9,7 +9,7 @@ i18n:
 
 ## Documents
 
-| Document                      | Jessica      | Seb          | Nina         | Lola         |
+| Document                      | Jess         | Seb          | Nina         | Lola         |
 | ---                           | :---:        | :---:        | :---:        | :---:        |
 | Passeport ou carte d'identité | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
 | Billet d'avion ou de train    | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
