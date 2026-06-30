@@ -72,9 +72,30 @@ survey-markdown article + article {
 survey-markdown article h1,
 survey-markdown article h2,
 survey-markdown article h3 {
-  margin-top: 0;
+  margin-top: var(--survey-spacing-md);
   margin-bottom: var(--survey-spacing-md);
   color: var(--survey-text);
+}
+
+/* ---- Tableaux ---- */
+survey-markdown table {
+  border-collapse: collapse;
+}
+
+survey-markdown tr {
+  border-bottom: solid 1px var(--survey-border);
+}
+
+survey-markdown th {
+  text-align: left;
+}
+
+survey-markdown th[align="center"] {
+  text-align: center;
+}
+
+survey-markdown td {
+  padding: var(--survey-spacing-sm) 0;
 }
 
 /* ---- Formulaire ---- */
@@ -138,7 +159,7 @@ survey-markdown li {
   display: flex;
   align-items: center;
   gap: var(--survey-spacing-sm);
-  padding: var(--survey-spacing-xs) var(--survey-spacing-sm);
+  padding: var(--survey-spacing-xs) 0;
   border-radius: var(--survey-radius);
   cursor: pointer;
   transition: background 0.1s;

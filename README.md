@@ -88,14 +88,14 @@ frontend/
 
 Tous les endpoints (sauf `/auth`) nécessitent un header `Authorization: Bearer <token>`.
 
-| Route             | Méthode  | Description                                     |
-| ----------------- | -------- | ----------------------------------------------- |
-| `/auth`           | `POST`   | Connexion. Corps : `{ login, password }`         |
+| Route             | Méthode  | Description                                        |
+| ---               | ---      | ---                                                |
+| `/auth`           | `POST`   | Connexion. Corps : `{ login, password }`           |
 | `/voyages`        | `GET`    | Liste des voyages (triés par date de modification) |
-| `/voyages`        | `POST`   | Créer un voyage. Corps : `{ name, data }`        |
-| `/voyages/{id}`   | `GET`    | Détails d'un voyage                             |
-| `/voyages/{id}`   | `PUT`    | Mettre à jour un voyage. Corps : `{ name, data }` |
-| `/voyages/{id}`   | `DELETE` | Supprimer un voyage                             |
+| `/voyages`        | `POST`   | Créer un voyage. Corps : `{ name, data }`          |
+| `/voyages/{id}`   | `GET`    | Détails d'un voyage                                |
+| `/voyages/{id}`   | `PUT`    | Mettre à jour un voyage. Corps : `{ name, data }`  |
+| `/voyages/{id}`   | `DELETE` | Supprimer un voyage                                |
 
 ### Exemple — connexion
 
@@ -114,6 +114,7 @@ Le formulaire est défini dans `frontend/data/checklist.md` au format `survey-ma
 Il suffit d'éditer ce fichier pour modifier les sections et les champs.
 
 Sections actuelles :
+
 - Documents (passeport, billet, permis, carte bancaire…)
 - Vêtements
 - Hygiène et santé

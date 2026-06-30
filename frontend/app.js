@@ -1,4 +1,4 @@
-const API = 'http://localhost/dev/todolist-vacances/backend/index.php';
+const API = 'http://localhost/dev/checklist-vacances/backend/index.php';
 
 let currentVoyageId = null;
 let checklistMd = null;
