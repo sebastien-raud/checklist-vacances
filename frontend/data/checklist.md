@@ -9,50 +9,115 @@ i18n:
 
 ## Documents
 
-| Document                      | Jess         | Seb          | Nina         | Lola         |
+| Intitulé                      | Jess         | Seb          | Nina         | Lola         |
 | ---                           | :---:        | :---:        | :---:        | :---:        |
 | Passeport ou carte d'identité | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
 | Billet d'avion ou de train    | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
-| Permis de conduire            | [[ ] &nbsp;] | [[ ] &nbsp;] |              |              |
-| Carte bancaire                | [[ ] &nbsp;] | [[ ] &nbsp;] |              |              |
+| Permis de conduire            | [[ ] &nbsp;] | [[ ] &nbsp;] | &nbsp;       | &nbsp;       |
+| Carte bancaire                | [[ ] &nbsp;] | [[ ] &nbsp;] | &nbsp;       | &nbsp;       |
 
 ### Autres
 
-- [[ ] Réservation d'hébergement]
 - [[ ] Assurance voyage]
+- [[ ] Guide de voyage]
+- [[ ] Réservation d'hébergement]
 
 ----
 
 ## Vêtements
 
-- [[ ] Vêtements du quotidien]
-- [[ ] Tenue de soirée]
-- [[ ] Vêtements de sport]
-- [[ ] Maillot de bain]
-- [[ ] Imperméable ou veste]
-- [[ ] Chaussures de marche]
-- [[ ] Chaussures de ville]
+| Intitulé                      | Jess         | Seb          | Nina         | Lola         |
+| ---                           | :---:        | :---:        | :---:        | :---:        |
+| Culottes / Slips              | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussettes                   | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Collants / Legging            | [[ ] &nbsp;] | &nbsp;       | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| T-shirt                       | [[ ] &nbsp;] | &nbsp;       | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Soutien-gorges                | [[ ] &nbsp;] | &nbsp;       | &nbsp;       | &nbsp;       |
+| Pyjama                        | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Pantalons                     | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Jupes et robes                | [[ ] &nbsp;] | &nbsp;       | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Pulls / Gilets / Polaires     | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Maillot de bain               | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Bonnet de bain                | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Lunettes de piscine           | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussons                     | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussures quotidien          | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussures plage              | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussures rando              | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chaussures sport              | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Claquettes / Sandales         | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Bottes                        | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Gants                         | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Manteau                       | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Coupe-vent                    | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Casquettes / Chapeaux         | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
 
 ----
 
 ## Hygiène et santé
 
-- [[ ] Articles de toilette]
-- [[ ] Crème solaire]
-- [[ ] Médicaments habituels]
-- [[ ] Trousse de premiers secours]
+| Intitulé                      | Parents          | Enfants         |
+| ---                           | :---:            | :---:           |
+| Savon                         | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Shampoing                     | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Brosse à dents                | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Dentifrice                    | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Peigne                        | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Crème solaire                 | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Médicaments                   | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+| Doliprane                     | [[ ] &nbsp;]     | [[ ] &nbsp;]    |
+
+| &nbsp;                        | Jess         | Seb          | Nina         | Lola         |
+| ---                           | :---:        | :---:        | :---:        | :---:        |
+| Lunettes                      | &nbsp;       | [[ ] &nbsp;] | [[ ] &nbsp;] | &nbsp;       |
+| Étui à lunettes               | &nbsp;       | [[ ] &nbsp;] | [[ ] &nbsp;] | &nbsp;       |
+| Lunettes de soleil            | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Masque de sommeil             | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] | [[ ] &nbsp;] |
+
+### Autres
+
+- [[ ] Boules Quiès]
+- [[ ] Cotons tiges]
+- [[ ] Lingettes]
+- [[ ] Mouchoirs en papier]
+- [[ ] Papier toilette]
+- [[ ] Pansements]
 - [[ ] Répulsif à insectes]
+- [[ ] Trousse de premiers secours]
+- [[ ] Thermomètre]
 
 ----
 
 ## Électronique
 
-- [[ ] Téléphone et chargeur]
+| Intitulé                      | Nina         | Lola         |
+| ---                           | :---:        | :---:        |
+| Tablette                      | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Chargeur                      | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| La Chouette Radio             | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Casque                        | [[ ] &nbsp;] | [[ ] &nbsp;] |
+| Veilleuse                     | [[ ] &nbsp;] | [[ ] &nbsp;] |
+
 - [[ ] Adaptateur de prise]
 - [[ ] Appareil photo]
 - [[ ] Batterie externe]
+- [[ ] Chargeurs]
 - [[ ] Ordinateur portable]
-- [[ ] Écouteurs]
+- [[ ] Téléphones]
+
+----
+
+## Loisirs
+
+| Intitulé                      | Nina         | Lola         |
+| ---                           | :---:        | :---:        |
+| Doudous                       | [[ ] &nbsp;] | [[ ] &nbsp;] |
+
+- [[ ] Canard enchaîné]
+- [[ ] Crayons]
+- [[ ] Feuilles à dessin]
+- [[ ] Feutres]
+- [[ ] Livres]
 
 ----
 
