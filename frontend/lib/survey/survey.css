@@ -96,6 +96,7 @@ survey-markdown th[align="center"] {
 
 survey-markdown td {
   padding: var(--survey-spacing-sm) 0;
+  vertical-align: top;
 }
 
 /* ---- Formulaire ---- */

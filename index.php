@@ -1,3 +1,3 @@
 <?php
 
-header('location: ./frontend');
+header('location: https://checklist-vacances.raud.info/frontend/');

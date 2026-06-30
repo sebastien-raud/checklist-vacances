@@ -56,7 +56,7 @@ function saveToken($token, $username) {
 
 function validateToken() {
     $headers = getallheaders();
-    $auth = $headers['Authorization'] ?? $headers['authorization'] ?? '';
+    $auth = $headers['X-Authorization'] ?? $headers['x-authorization'] ?? '';
     if (!preg_match('/^Bearer (.+)$/', trim($auth), $m)) {
         respond(['error' => 'Token requis'], 401);
     }

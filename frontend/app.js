@@ -1,4 +1,4 @@
-const API = 'http://localhost/dev/checklist-vacances/backend/index.php';
+const API = 'https://checklist-vacances.raud.info/backend/index.php';
 
 let currentVoyageId = null;
 let checklistMd = null;
@@ -67,7 +67,7 @@ function renderVoyagesList(voyages) {
 
 function authHeaders() {
     return {
-        'Authorization': `Bearer ${localStorage.getItem('token')}`,
+        'X-Authorization': `Bearer ${localStorage.getItem('token')}`,
         'Content-Type': 'application/json',
     };
 }
